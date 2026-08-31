@@ -163,7 +163,6 @@ nav {
     #reservations{
         width: 100%;
         height: 100vh;
-        padding-top: 30px;
 
         background-image: url("images/fondo-reservas.jpg");
 
@@ -212,6 +211,42 @@ nav {
         width: 30%;
         text-align: center;
         font-size: 30px;
+    }
+
+    #contact{
+
+        background-image: url("images/fondo-contact.jpg");
+        background-size: cover;
+        background-position: center;
+
+        width: 100%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #contact h2{
+        font-weight: bold;
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    .horarios{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    .right{      
+        text-align: center;
+    }
+    .right h4{
+        transform: translateY(-20px);
+        font-weight: bold;
+        font-size: 30px;
+        padding-bottom: 0%;
+    }
+    .right p{
+        transform: translateY(-50px);
     }
 
     
