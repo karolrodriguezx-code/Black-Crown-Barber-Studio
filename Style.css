@@ -249,4 +249,26 @@ nav {
         transform: translateY(-50px);
     }
 
+    #footer {
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    box-sizing: border-box;
+}
+
+#footer footer {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(180, 141, 10);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#footer footer::first-letter {
+    color: rgb(180, 141, 10);
+}
+
     
