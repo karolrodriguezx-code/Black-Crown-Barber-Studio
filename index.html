@@ -146,16 +146,64 @@
     </section>
 
     <section id ="reservations">
-        <h2>Without tittle</h2>
 
-        <form action="form">
-            <!-- Aqui formulario-->
+        <form id="form">
+           <label for="username">Nombre: </label>
+           <input type="text" id="username">
+
+           <label for="contact">Telefono: </label>
+           <input type="text" id="contact">
+
+           <label for="fecha">Fecha: </label>
+           <input type="date" id="fecha">
+           
+           <label for="hora">Hora: </label>
+           <select name="hora" id="hora">
+                <option value=""></option>
+                <option value="normal">9:00 am - 10:00 am</option>
+                <option value="normal">10:00 am - 11:00 am</option>
+                <option value="normal">11:00 am - 12:00 pm</option>
+                <option value="normal">12:00 pm - 1:00 pm</option>
+                <option value="normal">1:00 pm - 2:00 pm</option>
+                <option value="normal">2:00 pm - 3:00 pm</option>
+                <option value="normal">3:00 pm - 4:00 pm</option>
+                <option value="normal">4:00 pm - 5:00 pm</option>
+                <option value="normal">5:00 pm - 6:00 pm</option>
+                <option value="normal">6:00 pm - 7:00 pm</option>
+                <option value="normal">7:00 pm - 8:00 pm</option>
+    
+           </select>
+
+           <label for="barbero">Barbero: </label>
+           <select name="barbero" id="barbero">
+                <option value=""></option>
+                <option value="one">Andrés Gómez</option>
+                <option value="two">Juan David Martínez</option>
+                <option value="three">Sebastián Rodríguez</option>
+                <option value="four">Mateo Sánchez</option>
+                <option value="any">Cualquiera</option>
+           </select>
+
+           <label for="service">Servicio: </label>
+           <select name="service" id="service">
+            <option value=""></option>
+            <option value="corte-clasico">Corte Clásico</option>
+            <option value="corte-barba">Corte + Barba</option>
+            <option value="barba">Barba</option>
+            <option value="corte-premium">Corte Premium</option>
+            <option value="diseño-barba">Diseño de Barba</option>
+            <option value="corte-infantil">Corte Infantil</option>
+            <option value="personalizado">Personalizado</option>
+           </select>
+
         </form>
 
-        <img src="" alt="">
-        <h2>Reserva Tu cita.
-             Tu Proximo corte comienza aquí</h2>
+        <script src="script.js"></script>
 
+        <div class="text-reservation">
+        <h2>¡Reserva Tu cita!</h2>
+        <h2>Tu Proximo corte comienza aquí</h2>
+        </div>
         
     </section>
 
